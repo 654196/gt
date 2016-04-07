@@ -26,10 +26,10 @@
             </next>
           </block>
         </statement>
+        <next>
+          <block type="movement_stop" id="194"></block>
+        </next>
       </block>
     </statement>
-    <next>
-      <block type="movement_stop" id="194"></block>
-    </next>
   </block>
 </xml>
