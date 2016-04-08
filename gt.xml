@@ -1,19 +1,19 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="130" inline="false" x="-636" y="-419">
+  <block type="controls_whileUntil" id="1" inline="false" x="-636" y="-419">
     <field name="MODE">UNTIL</field>
     <statement name="DO">
-      <block type="controls_repeat" id="81" inline="true">
+      <block type="controls_repeat" id="2" inline="true">
         <value name="TIMES">
-          <block type="math_number" id="97">
+          <block type="math_number" id="3">
             <field name="NUM">2</field>
           </block>
         </value>
         <statement name="DO">
-          <block type="movement_forward" id="107">
+          <block type="movement_forward" id="4">
             <next>
-              <block type="robot_delay" id="115" inline="true">
+              <block type="robot_delay" id="5" inline="true">
                 <value name="DELAY">
-                  <block type="math_number" id="122">
+                  <block type="math_number" id="6">
                     <field name="NUM">3800</field>
                   </block>
                 </value>
@@ -22,7 +22,7 @@
           </block>
         </statement>
         <next>
-          <block type="movement_stop" id="194"></block>
+          <block type="movement_stop" id="7"></block>
         </next>
       </block>
     </statement>
